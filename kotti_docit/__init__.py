@@ -5,7 +5,7 @@ Created on 2016-09-20
 :author: Oshane Bailey (oshane@alteroo.com)
 """
 
-from kotti.resources import File, Image
+from kotti.resources import File, Image, Document
 from pyramid.i18n import TranslationStringFactory
 
 from kotti_pdf.resources import PDF
@@ -32,6 +32,7 @@ def kotti_configure(settings):
     File.type_info.addable_to.append('AdminManual')
     Image.type_info.addable_to.append('AdminManual')
     PDF.type_info.addable_to.append('AdminManual')
+    Document.type_info.addable_to.append('AdminManual')
 
 
 def includeme(config):

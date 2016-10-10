@@ -21,8 +21,8 @@ class AdminManual(Document):
     """ Documents that are only visible by admins. """
     implements(IDefaultWorkflow)
     id = Column(Integer, ForeignKey('documents.id'), primary_key=True)
-    
-    
+
+
     type_info = Document.type_info.copy(
         name=u'AdminManual',
         title=_(u'Admin Manual'),

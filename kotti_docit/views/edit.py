@@ -19,7 +19,7 @@ class AdminManualSchema(DocumentSchema):
     """ Schema for AdminManual. """
 
 
-@view_config(name=AdminManual.type_info.add_view, 
+@view_config(name=AdminManual.type_info.add_view,
              permission=AdminManual.type_info.add_permission,
              renderer='kotti:templates/edit/node.pt')
 class AdminManualAddForm(AddFormView):
