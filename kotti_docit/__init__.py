@@ -9,6 +9,7 @@ from kotti.resources import File, Image, Document
 from pyramid.i18n import TranslationStringFactory
 
 from kotti_pdf.resources import PDF
+from kotti_contenttypes.resources import Folder
 
 _ = TranslationStringFactory('kotti_docit')
 
@@ -33,6 +34,7 @@ def kotti_configure(settings):
     Image.type_info.addable_to.append('AdminManual')
     PDF.type_info.addable_to.append('AdminManual')
     Document.type_info.addable_to.append('AdminManual')
+    Folder.type_info.addable_to.append('AdminManual')
 
 
 def includeme(config):
