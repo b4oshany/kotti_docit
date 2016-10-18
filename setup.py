@@ -30,6 +30,7 @@ install_requires = [
     'kotti_google_analytics==1.1.20',
     'kotti_alert>=0.2.5',
     'click>=6.6',
+    'kotti_contenttypes>=0.1.0'
 ]
 
 
