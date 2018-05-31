@@ -17,7 +17,7 @@ This is an extension to Kotti that allows to add foo to your site.
 .. |license| image:: https://img.shields.io/pypi/l/kotti_docit.svg?style=flat-square
 .. _license: http://www.repoze.org/LICENSE.txt
 
-.. |build_status_stable| image:: https://img.shields.io/travis/b4oshany/kotti_docit/production.svg?style=flat-square
+.. |build_status_stable| image:: https://img.shields.io/travis/b4oshany/kotti_docit/master.svg?style=flat-square
 .. _build_status_stable: http://travis-ci.org/b4oshany/kotti_docit
 
 `Find out more about Kotti`_
